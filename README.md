@@ -47,6 +47,8 @@ Then commit the changes to `go.mod` and `go.sum`.
 
 Fill this in for each provider
 
+
+
 ## Developing the Provider
 
 If you wish to work on the provider, you'll first need [Go](http://www.golang.org) installed on your machine (see [Requirements](#requirements) above).
