@@ -44,8 +44,9 @@ func main() {
 		// provider address is used in these tutorials in conjunction with a
 		// specific Terraform CLI configuration for manual development testing
 		// of this provider.
-		Address: "zackmwangi/hashicups",
-		Debug:   debug,
+		Address:         "registry.terraform.io/zackmwangi/hashicups",
+		Debug:           debug,
+		ProtocolVersion: 6,
 	}
 
 	err := providerserver.Serve(context.Background(), provider.New(version), opts)
